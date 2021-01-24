@@ -5,7 +5,9 @@ var notes = [
             '<a href = "Week1.html">Week 1</a>',
             '<a href = "Week2.html">Week 2</a>',
             '<a href = "Week3.html">Week 3</a>'
-];
+        ];
+    }
+]
 
 function myFunction{
     var html = "";
@@ -13,6 +15,4 @@ function myFunction{
         var note = notes[i];
         html += note.heading + note.links.join("");
     }
-    document.getElementById('demo').innerHTML = html;
-    };
 }
