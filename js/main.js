@@ -5,7 +5,7 @@ function myFunction(){
     var i;
     for (i = 0; i < notes.length; i++) {
         var x = document.createElement("LI");
-        notes[i]
+        notes[i];
         var y = document.createElement("BR");
       }
 }
