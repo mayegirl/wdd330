@@ -5,6 +5,8 @@ document.getElementById("demo").innerHTML = notes;
 function myFunction(){
     var i;
     for (i = 0; i < notes.length; i++) {
-        "<li>" + notes[i] + "<br>";
+        var x = document.createElement("LI");
+        notes[i]
+        var y = document.createElement("BR");
       }
 }
