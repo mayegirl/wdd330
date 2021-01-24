@@ -1,18 +1,25 @@
-var notes = [
+document.getElementById("demo");
+const notes = [
     {
-        heading: '<li>"Week 1"</li>', '<li>"Week 2"</li>', '<li>"Week 3"</li>',
-        links: [
-            '<a href = "Week1.html">Week 1</a>',
-            '<a href = "Week2.html">Week 2</a>',
-            '<a href = "Week3.html">Week 3</a>'
-        ];
-    }
+        label: "Week 1 Notes",
+        url: "Week1.html"
+    },
+    {
+        label: "Week 2 Notes",
+        url: "Week2.html"
+    },
+    {
+        label: "Week 3 Notes",
+        url: "Week3.html"
+    },
 ]
-
 function myFunction{
-    var html = "";
-    for( var i = 0; i < notes.length; i++ ){
-        var note = notes[i];
-        html += note.heading + note.links.join("");
+    var i, len, text;
+    for(i = 0; len = notes.length; i++){
+        var li = document.createElement("LI");
+        var a = document.createElement("a");
+        a.setAttribute("href", notes[i].url());
+        a.innerHTML = notes[i].label();
+        document.getElementById("demo");
     }
 }
