@@ -1,4 +1,10 @@
+var notes = ["Week 1", "Week 2", "Week 3"];
+notes.forEach(myFunction);
+document.getElementById("demo").innerHTML = notes;
+
 function myFunction(){
-    var notes = ["Week 1", "Week 2", "Week 3"];
-    document.getElementById("demo").innerHTML = notes;
+    var i;
+    for (i = 0; i < notes.length; i++) {
+        "<li>" + notes[i] + "<br>";
+      }
 }
