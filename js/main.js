@@ -1,4 +1,5 @@
-document.getElementById("demo");
+console.log("Testing javasc");
+
 const notes = [
     {
         label: "Week 1 Notes",
