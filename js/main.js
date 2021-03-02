@@ -26,7 +26,7 @@ const notes = [
     {
         label: "Week 8 Notes",
         url: "Week8.html",
-    },
+    }
 ]
 function myFunction(){
     var i, text;
