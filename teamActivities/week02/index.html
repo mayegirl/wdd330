@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team 5 | Week 2</title>
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Team 5 | Week 2</h1>
+
+    <h2>Requirement 1</h2>
+    <input id="text" type="text" />
+    <button id="button1" onclick="displayText()">Go</button>
+    <br />
+    <div id="display"></div>
+
+    <h2>Requirement 2</h2>
+    <input id="number" type="number" />
+    <button id="factorial" onclick="factorial(document.getElementById('number').value)">
+      Factorial
+    </button>
+    <div id="sum"></div>
+
+    <h2>Requirement 3</h2>
+
+    <input id="num1" type="number" />
+    <input id="num2" type="number" />
+    <button id="add" onclick="addUp()">Add</button>
+    <br />
+    <div id="result"></div>
+
+    <h2>Stretch 3</h2>
+    <button onclick="calculateNumber('num1', 'num2', addNums);">Add</button>
+    <br />
+    <button onclick="calculateNumber('num1', 'num2', subtractNums);">Subtract</button>
+    <br />
+    <button onclick="calculateNumber('num1', 'num2', (a, b)=>a*b);">Multiply</button>
+    <div id="answer"></div>
+  </body>
+</html>

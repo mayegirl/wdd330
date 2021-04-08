@@ -29,7 +29,7 @@ const notes = [
     },
     {
         label: "Team Assignments",
-        url: "WDD330-W2021-Team5/TeamIndex.html",
+        url: "teamActivities/TeamIndex.html",
     }
 ]
 function myFunction(){

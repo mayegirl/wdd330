@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user1@email.com",
+      "password": "user1",
+      "firstname": "Test",
+      "lastname": "User",
+      "age": 20
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "email": "user2@email.com",
+      "password": "user2"
+    },
+    {
+      "id": 3,
+      "email": "user3@email.com",
+      "password": "$2a$10$gFzBsVMWTJAB3H81DDDS3.iGM4lVCBh9SMlfAipzyHnd/X17mk9y6"
+    }
+  ],
+  "posts": [
+    {
+      "title": "First Post!",
+      "content": "I can't believe I got first post.",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "First Post!",
+      "content": "Woot! I never get first post!",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "title": "First Post!",
+      "content": "Did I really get first?",
+      "userId": "3",
+      "createdAt": 1558736105449,
+      "id": 8
+    },
+    {
+      "title": "post 5",
+      "content": "post 5",
+      "userId": "user1@email.com",
+      "createdAt": 1559159434900,
+      "id": 11
+    },
+    {
+      "title": "post 6",
+      "content": "post 6",
+      "userId": "user1@email.com",
+      "createdAt": 1559159640285,
+      "id": 12
+    },
+    {
+      "title": "something",
+      "content": "else",
+      "userId": "user1@email.com",
+      "createdAt": 1615959404396,
+      "id": 13
+    },
+    {
+      "title": "asdf",
+      "content": "asdf",
+      "userId": "user1@email.com",
+      "createdAt": 1615959724209,
+      "id": 14
+    },
+    {
+      "title": "test",
+      "content": "test123",
+      "userId": "user1@email.com",
+      "createdAt": 1616034033554,
+      "id": 15
+    },
+    {
+      "title": "another test",
+      "content": "asdfjkl;",
+      "userId": "user1@email.com",
+      "createdAt": 1616034094885,
+      "id": 16
+    },
+    {
+      "title": "nice",
+      "content": "hello world!",
+      "userId": "user1@email.com",
+      "createdAt": 1616034106260,
+      "id": 17
+    },
+    {
+      "title": "abcdefg",
+      "content": "hijklmnop\n",
+      "userId": "user1@email.com",
+      "createdAt": 1616034153666,
+      "id": 18
+    },
+    {
+      "title": "hello",
+      "content": "jello",
+      "userId": "user1@email.com",
+      "createdAt": 1616034228614,
+      "id": 19
+    },
+    {
+      "title": "a",
+      "content": "bcd",
+      "userId": "user1@email.com",
+      "createdAt": 1616034273365,
+      "id": 20
+    },
+    {
+      "title": "asdf",
+      "content": "jkl;",
+      "userId": "user1@email.com",
+      "createdAt": 1616034661921,
+      "id": 21
+    },
+    {
+      "title": "Chef Extraordinaire",
+      "content": "asdf",
+      "userId": "user1@email.com",
+      "createdAt": 1616035390964,
+      "id": 22
+    }
+  ]
+}

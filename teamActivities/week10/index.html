@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 10 | Local Quakes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Quake List</h1>
+    <div>
+      <label for="radius">Radius
+        <input type="text" name="radius" id="radius">
+      </label>
+
+      <!-- <label for="startDate">Start Date
+        <input type="date" name="startDate" id="startDate">
+      </label>
+      <label for="endDate">End Date
+        <input type="date" name="endDate" id="endDate">
+      </label> -->
+    </div>
+
+    <ul id="quakeList"></ul>
+
+    <div id="modalBackground">
+      <div id="modalFrame">
+        <header id="modalHeader">&times;</header>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="index.js" type="module"></script>
+</body>
+</html>

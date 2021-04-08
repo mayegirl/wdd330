@@ -1,0 +1,566 @@
+{
+  "type": "Feature",
+  "properties": {
+    "mag": 1.9,
+    "place": "7km W of Cobb, CA",
+    "time": 1549065378840,
+    "updated": 1549936084199,
+    "tz": -480,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73139036",
+    "felt": 1,
+    "cdi": 2.2,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 56,
+    "net": "nc",
+    "code": "73139036",
+    "ids": ",nc73139036,",
+    "sources": ",nc,",
+    "types": ",dyfi,focal-mechanism,geoserve,nearby-cities,origin,phase-data,scitech-link,",
+    "nst": 35,
+    "dmin": 0.009878,
+    "rms": 0.06,
+    "gap": 48,
+    "magType": "md",
+    "type": "earthquake",
+    "title": "M 1.9 - 7km W of Cobb, CA",
+    "products": {
+      "dyfi": [{
+        "indexid": "174005952",
+        "indexTime": 1549933869451,
+        "id": "urn:usgs-product:us:dyfi:nc73139036:1549933867179",
+        "type": "dyfi",
+        "code": "nc73139036",
+        "source": "us",
+        "updateTime": 1549933867179,
+        "status": "UPDATE",
+        "properties": {
+          "depth": "2.14",
+          "eventsource": "nc",
+          "eventsourcecode": "73139036",
+          "eventtime": "2019-02-01T23:56:18.000Z",
+          "latitude": "38.834",
+          "longitude": "-122.8016667",
+          "magnitude": "1.9",
+          "maxmmi": "2.2",
+          "num-responses": "1",
+          "numResp": "1",
+          "pdl-client-version": "Version 1.13.3 2018-02-06"
+        },
+        "preferredWeight": 51,
+        "contents": {
+          "cdi_geo.txt": {
+            "contentType": "text/plain",
+            "lastModified": 1549933866000,
+            "length": 177,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/cdi_geo.txt"
+          },
+          "cdi_geo.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933866000,
+            "length": 390,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/cdi_geo.xml"
+          },
+          "cdi_geo_1km.txt": {
+            "contentType": "text/plain",
+            "lastModified": 1549933866000,
+            "length": 192,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/cdi_geo_1km.txt"
+          },
+          "cdi_zip.txt": {
+            "contentType": "text/plain",
+            "lastModified": 1549933866000,
+            "length": 170,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/cdi_zip.txt"
+          },
+          "cdi_zip.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933866000,
+            "length": 280,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/cdi_zip.xml"
+          },
+          "contents.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933866000,
+            "length": 4224,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/contents.xml"
+          },
+          "dyfi.kmz": {
+            "contentType": "application/vnd.google-earth.kmz",
+            "lastModified": 1549933866000,
+            "length": 1173,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/dyfi.kmz"
+          },
+          "dyfi_geo.kmz": {
+            "contentType": "application/vnd.google-earth.kmz",
+            "lastModified": 1549933866000,
+            "length": 686,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/dyfi_geo.kmz"
+          },
+          "dyfi_geo_10km.geojson": {
+            "contentType": "application/octet-stream",
+            "lastModified": 1549933866000,
+            "length": 288,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/dyfi_geo_10km.geojson"
+          },
+          "dyfi_geo_1km.geojson": {
+            "contentType": "application/octet-stream",
+            "lastModified": 1549933866000,
+            "length": 303,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/dyfi_geo_1km.geojson"
+          },
+          "dyfi_plot_atten.json": {
+            "contentType": "application/json",
+            "lastModified": 1549933866000,
+            "length": 512,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/dyfi_plot_atten.json"
+          },
+          "dyfi_plot_numresp.json": {
+            "contentType": "application/json",
+            "lastModified": 1549933866000,
+            "length": 207,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/dyfi_plot_numresp.json"
+          },
+          "dyfi_zip.geojson": {
+            "contentType": "application/octet-stream",
+            "lastModified": 1549933866000,
+            "length": 7147,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/dyfi_zip.geojson"
+          },
+          "dyfi_zip.kmz": {
+            "contentType": "application/vnd.google-earth.kmz",
+            "lastModified": 1549933866000,
+            "length": 1585,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/dyfi_zip.kmz"
+          },
+          "event_data.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933866000,
+            "length": 3034,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/event_data.xml"
+          },
+          "nc73139036_ciim.jpg": {
+            "contentType": "image/jpeg",
+            "lastModified": 1549933866000,
+            "length": 93301,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_ciim.jpg"
+          },
+          "nc73139036_ciim.pdf": {
+            "contentType": "application/pdf",
+            "lastModified": 1549933866000,
+            "length": 63639,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_ciim.pdf"
+          },
+          "nc73139036_ciim.ps": {
+            "contentType": "application/postscript",
+            "lastModified": 1549933866000,
+            "length": 168562,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_ciim.ps"
+          },
+          "nc73139036_ciim_geo.jpg": {
+            "contentType": "image/jpeg",
+            "lastModified": 1549933866000,
+            "length": 93221,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_ciim_geo.jpg"
+          },
+          "nc73139036_ciim_geo.pdf": {
+            "contentType": "application/pdf",
+            "lastModified": 1549933866000,
+            "length": 63639,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_ciim_geo.pdf"
+          },
+          "nc73139036_ciim_geo.ps": {
+            "contentType": "application/postscript",
+            "lastModified": 1549933866000,
+            "length": 168557,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_ciim_geo.ps"
+          },
+          "nc73139036_ciim_geo_imap.html": {
+            "contentType": "text/html",
+            "lastModified": 1549933866000,
+            "length": 46,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_ciim_geo_imap.html"
+          },
+          "nc73139036_ciim_imap.html": {
+            "contentType": "text/html",
+            "lastModified": 1549933866000,
+            "length": 48,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_ciim_imap.html"
+          },
+          "nc73139036_plot_atten.jpg": {
+            "contentType": "image/jpeg",
+            "lastModified": 1549933866000,
+            "length": 33877,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_plot_atten.jpg"
+          },
+          "nc73139036_plot_atten.ps": {
+            "contentType": "application/postscript",
+            "lastModified": 1549933866000,
+            "length": 46783,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_plot_atten.ps"
+          },
+          "nc73139036_plot_atten.txt": {
+            "contentType": "text/plain",
+            "lastModified": 1549933866000,
+            "length": 222,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_plot_atten.txt"
+          },
+          "nc73139036_plot_numresp.jpg": {
+            "contentType": "image/jpeg",
+            "lastModified": 1549933866000,
+            "length": 33219,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_plot_numresp.jpg"
+          },
+          "nc73139036_plot_numresp.ps": {
+            "contentType": "application/postscript",
+            "lastModified": 1549933866000,
+            "length": 35507,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_plot_numresp.ps"
+          },
+          "nc73139036_plot_numresp.txt": {
+            "contentType": "text/plain",
+            "lastModified": 1549933866000,
+            "length": 101,
+            "url": "https://earthquake.usgs.gov/archive/product/dyfi/nc73139036/us/1549933867179/nc73139036_plot_numresp.txt"
+          }
+        }
+      }],
+      "focal-mechanism": [{
+        "indexid": "174005972",
+        "indexTime": 1549933894683,
+        "id": "urn:usgs-product:nc:focal-mechanism:nc73139036_fm2:1549933892940",
+        "type": "focal-mechanism",
+        "code": "nc73139036_fm2",
+        "source": "nc",
+        "updateTime": 1549933892940,
+        "status": "UPDATE",
+        "properties": {
+          "beachball-source": "NC",
+          "depth": "2.14",
+          "evaluation-status": "preliminary",
+          "eventParametersPublicID": "quakeml:nc.anss.org/Event/NC/73139036#154993389293",
+          "eventsource": "nc",
+          "eventsourcecode": "73139036",
+          "eventtime": "2019-02-01T23:56:18.840Z",
+          "latitude": "38.834",
+          "longitude": "-122.8016667",
+          "nodal-plane-1-dip": "55.0",
+          "nodal-plane-1-rake": "-100.0",
+          "nodal-plane-1-strike": "205.0",
+          "nodal-plane-2-dip": "36.0",
+          "nodal-plane-2-rake": "-76.0",
+          "nodal-plane-2-strike": "42.0",
+          "num-stations-used": "36",
+          "original-eventsource": "nc",
+          "original-eventsourcecode": "73139036",
+          "pdl-client-version": "Version 1.13.3 2018-02-06",
+          "quakeml-publicid": "quakeml:nc.anss.org/Mec/NC/88072",
+          "review-status": "automatic"
+        },
+        "preferredWeight": 156,
+        "contents": {
+          "contents.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933892000,
+            "length": 304,
+            "url": "https://earthquake.usgs.gov/archive/product/focal-mechanism/nc73139036_fm2/nc/1549933892940/contents.xml"
+          },
+          "nc73139036.ncfm2.gif": {
+            "contentType": "image/gif",
+            "lastModified": 1549933891000,
+            "length": 13463,
+            "url": "https://earthquake.usgs.gov/archive/product/focal-mechanism/nc73139036_fm2/nc/1549933892940/nc73139036.ncfm2.gif"
+          },
+          "quakeml.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933892000,
+            "length": 6885,
+            "url": "https://earthquake.usgs.gov/archive/product/focal-mechanism/nc73139036_fm2/nc/1549933892940/quakeml.xml"
+          }
+        }
+      }, {
+        "indexid": "174005962",
+        "indexTime": 1549933893253,
+        "id": "urn:usgs-product:nc:focal-mechanism:nc73139036_fm1:1549933891490",
+        "type": "focal-mechanism",
+        "code": "nc73139036_fm1",
+        "source": "nc",
+        "updateTime": 1549933891490,
+        "status": "UPDATE",
+        "properties": {
+          "beachball-source": "NC",
+          "depth": "2.14",
+          "evaluation-status": "preliminary",
+          "eventParametersPublicID": "quakeml:nc.anss.org/Event/NC/73139036#154993389149",
+          "eventsource": "nc",
+          "eventsourcecode": "73139036",
+          "eventtime": "2019-02-01T23:56:18.840Z",
+          "latitude": "38.834",
+          "longitude": "-122.8016667",
+          "nodal-plane-1-dip": "40.0",
+          "nodal-plane-1-rake": "-150.0",
+          "nodal-plane-1-strike": "350.0",
+          "nodal-plane-2-dip": "71.0",
+          "nodal-plane-2-rake": "-54.0",
+          "nodal-plane-2-strike": "236.0",
+          "num-stations-used": "36",
+          "original-eventsource": "nc",
+          "original-eventsourcecode": "73139036",
+          "pdl-client-version": "Version 1.13.3 2018-02-06",
+          "quakeml-publicid": "quakeml:nc.anss.org/Mec/NC/88067",
+          "review-status": "automatic"
+        },
+        "preferredWeight": 156,
+        "contents": {
+          "contents.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933891000,
+            "length": 304,
+            "url": "https://earthquake.usgs.gov/archive/product/focal-mechanism/nc73139036_fm1/nc/1549933891490/contents.xml"
+          },
+          "nc73139036.ncfm1.gif": {
+            "contentType": "image/gif",
+            "lastModified": 1549933891000,
+            "length": 13945,
+            "url": "https://earthquake.usgs.gov/archive/product/focal-mechanism/nc73139036_fm1/nc/1549933891490/nc73139036.ncfm1.gif"
+          },
+          "quakeml.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933891000,
+            "length": 6886,
+            "url": "https://earthquake.usgs.gov/archive/product/focal-mechanism/nc73139036_fm1/nc/1549933891490/quakeml.xml"
+          }
+        }
+      }],
+      "geoserve": [{
+        "indexid": "174005932",
+        "indexTime": 1549933830187,
+        "id": "urn:usgs-product:us:geoserve:nc73139036:1549933824210",
+        "type": "geoserve",
+        "code": "nc73139036",
+        "source": "us",
+        "updateTime": 1549933824210,
+        "status": "UPDATE",
+        "properties": {
+          "eventsource": "nc",
+          "eventsourcecode": "73139036",
+          "location": "6km W of Cobb, California",
+          "pdl-client-version": "Version 1.14.1 2018-04-26",
+          "tsunamiFlag": "false",
+          "utcOffset": "-480"
+        },
+        "preferredWeight": 1,
+        "contents": {
+          "geoserve.json": {
+            "contentType": "application/json",
+            "lastModified": 1549933828000,
+            "length": 1097,
+            "url": "https://earthquake.usgs.gov/archive/product/geoserve/nc73139036/us/1549933824210/geoserve.json"
+          }
+        }
+      }],
+      "nearby-cities": [{
+        "indexid": "174005922",
+        "indexTime": 1549933828212,
+        "id": "urn:usgs-product:nc:nearby-cities:nc73139036:1549933826724",
+        "type": "nearby-cities",
+        "code": "nc73139036",
+        "source": "nc",
+        "updateTime": 1549933826724,
+        "status": "UPDATE",
+        "properties": {
+          "eventsource": "nc",
+          "eventsourcecode": "73139036",
+          "pdl-client-version": "Version 1.13.3 2018-02-06"
+        },
+        "preferredWeight": 6,
+        "contents": {
+          "nearby-cities.json": {
+            "contentType": "application/json",
+            "lastModified": 1549933826000,
+            "length": 648,
+            "url": "https://earthquake.usgs.gov/archive/product/nearby-cities/nc73139036/nc/1549933826724/nearby-cities.json"
+          }
+        }
+      }],
+      "origin": [{
+        "indexid": "174005902",
+        "indexTime": 1549933826832,
+        "id": "urn:usgs-product:nc:origin:nc73139036:1549933824210",
+        "type": "origin",
+        "code": "nc73139036",
+        "source": "nc",
+        "updateTime": 1549933824210,
+        "status": "UPDATE",
+        "properties": {
+          "azimuthal-gap": "48",
+          "depth": "2.14",
+          "depth-type": "from location",
+          "error-ellipse-azimuth": "350",
+          "error-ellipse-intermediate": "408",
+          "error-ellipse-major": "648",
+          "error-ellipse-minor": "312",
+          "error-ellipse-plunge": "80",
+          "error-ellipse-rotation": "10",
+          "evaluation-status": "final",
+          "event-type": "earthquake",
+          "eventParametersPublicID": "quakeml:nc.anss.org/Event/NC/73139036#154993382421",
+          "eventsource": "nc",
+          "eventsourcecode": "73139036",
+          "eventtime": "2019-02-01T23:56:18.840Z",
+          "horizontal-error": "0.17",
+          "latitude": "38.834",
+          "longitude": "-122.8016667",
+          "magnitude": "1.9",
+          "magnitude-azimuthal-gap": "128.5",
+          "magnitude-error": "0.12",
+          "magnitude-num-stations-used": "9",
+          "magnitude-source": "NC",
+          "magnitude-type": "md",
+          "minimum-distance": "0.009878",
+          "num-phases-used": "40",
+          "num-stations-used": "35",
+          "origin-source": "NC",
+          "pdl-client-version": "Version 1.13.3 2018-02-06",
+          "quakeml-magnitude-publicid": "quakeml:nc.anss.org/Netmag/NC/5390114",
+          "quakeml-origin-publicid": "quakeml:nc.anss.org/Origin/NC/12500284",
+          "quakeml-publicid": "quakeml:nc.anss.org/Event/NC/73139036",
+          "review-status": "reviewed",
+          "standard-error": "0.06",
+          "title": "7km W of Cobb, CA",
+          "version": "2",
+          "vertical-error": "0.27"
+        },
+        "preferredWeight": 156,
+        "contents": {
+          "contents.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933825000,
+            "length": 195,
+            "url": "https://earthquake.usgs.gov/archive/product/origin/nc73139036/nc/1549933824210/contents.xml"
+          },
+          "quakeml.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933824000,
+            "length": 3078,
+            "url": "https://earthquake.usgs.gov/archive/product/origin/nc73139036/nc/1549933824210/quakeml.xml"
+          }
+        }
+      }],
+      "phase-data": [{
+        "indexid": "174005912",
+        "indexTime": 1549933827589,
+        "id": "urn:usgs-product:nc:phase-data:nc73139036:1549933824210",
+        "type": "phase-data",
+        "code": "nc73139036",
+        "source": "nc",
+        "updateTime": 1549933824210,
+        "status": "UPDATE",
+        "properties": {
+          "azimuthal-gap": "48",
+          "depth": "2.14",
+          "depth-type": "from location",
+          "error-ellipse-azimuth": "350",
+          "error-ellipse-intermediate": "408",
+          "error-ellipse-major": "648",
+          "error-ellipse-minor": "312",
+          "error-ellipse-plunge": "80",
+          "error-ellipse-rotation": "10",
+          "evaluation-status": "final",
+          "event-type": "earthquake",
+          "eventParametersPublicID": "quakeml:nc.anss.org/Event/NC/73139036#154993382421",
+          "eventsource": "nc",
+          "eventsourcecode": "73139036",
+          "eventtime": "2019-02-01T23:56:18.840Z",
+          "horizontal-error": "0.17",
+          "latitude": "38.834",
+          "longitude": "-122.8016667",
+          "magnitude": "1.9",
+          "magnitude-azimuthal-gap": "128.5",
+          "magnitude-error": "0.12",
+          "magnitude-num-stations-used": "9",
+          "magnitude-source": "NC",
+          "magnitude-type": "md",
+          "minimum-distance": "0.009878",
+          "num-phases-used": "40",
+          "num-stations-used": "35",
+          "origin-source": "NC",
+          "pdl-client-version": "Version 1.13.3 2018-02-06",
+          "quakeml-magnitude-publicid": "quakeml:nc.anss.org/Netmag/NC/5390114",
+          "quakeml-origin-publicid": "quakeml:nc.anss.org/Origin/NC/12500284",
+          "quakeml-publicid": "quakeml:nc.anss.org/Event/NC/73139036",
+          "review-status": "reviewed",
+          "standard-error": "0.06",
+          "title": "7km W of Cobb, CA",
+          "version": "2",
+          "vertical-error": "0.27"
+        },
+        "preferredWeight": 156,
+        "contents": {
+          "contents.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933825000,
+            "length": 195,
+            "url": "https://earthquake.usgs.gov/archive/product/phase-data/nc73139036/nc/1549933824210/contents.xml"
+          },
+          "quakeml.xml": {
+            "contentType": "application/xml",
+            "lastModified": 1549933824000,
+            "length": 53479,
+            "url": "https://earthquake.usgs.gov/archive/product/phase-data/nc73139036/nc/1549933824210/quakeml.xml"
+          }
+        }
+      }],
+      "scitech-link": [{
+        "indexid": "174007242",
+        "indexTime": 1549936084611,
+        "id": "urn:usgs-product:nc:scitech-link:nc73139036-waveform_nc:1549936084199",
+        "type": "scitech-link",
+        "code": "nc73139036-waveform_nc",
+        "source": "nc",
+        "updateTime": 1549936084199,
+        "status": "UPDATE",
+        "properties": {
+          "addon-code": "Waveform_nc",
+          "addon-type": "LinkURL",
+          "eventsource": "nc",
+          "eventsourcecode": "73139036",
+          "pdl-client-version": "Version 1.13.3 2018-02-06",
+          "text": "Waveforms",
+          "url": "http://escweb.wr.usgs.gov/waveforms/wavesall/nc73139036/",
+          "version": "01"
+        },
+        "preferredWeight": 6,
+        "contents": []
+      }, {
+        "indexid": "173714142",
+        "indexTime": 1549065585702,
+        "id": "urn:usgs-product:nc:scitech-link:nc73139036-ncfm1:1549065585264",
+        "type": "scitech-link",
+        "code": "nc73139036-ncfm1",
+        "source": "nc",
+        "updateTime": 1549065585264,
+        "status": "UPDATE",
+        "properties": {
+          "addon-code": "ncfm1",
+          "addon-type": "LinkURL",
+          "eventsource": "nc",
+          "eventsourcecode": "73139036",
+          "pdl-client-version": "Version 1.13.3 2018-02-06",
+          "text": "NCSN First Motion Mechanism 1",
+          "url": "http://www.ncedc.org/recenteqs/QuakeAddons/nc73139036.ncfm1.html",
+          "version": "00"
+        },
+        "preferredWeight": 6,
+        "contents": []
+      }]
+    }
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.8016667, 38.834, 2.14]
+  },
+  "id": "nc73139036"
+}

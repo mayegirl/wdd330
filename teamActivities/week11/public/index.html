@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 11 | JSON Web Tokens</title>
+    <style>
+      * {font-family: sans-serif; box-sizing: border-box}
+      .hidden {display: none}
+      #errors {position: absolute; top: 50px; left: calc(100vw / 2 - 150px)}
+      #errors div {
+        width: 300px;
+        background-color: pink;
+        border: 1px solid red;
+        border-radius: 6px;
+        padding: .5rem;
+        margin-bottom: .5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Week 11 | JSON Web Tokens</h1>
+
+    <!-- login form -->
+    <form name="login">
+      <label for="email">Email:
+        <input type="text" name="email" id="email" value="user1@email.com">
+      </label>
+      <br>
+      <label for="password">Password:
+        <input type="password" name="password" id="password" value="user1">
+      </label>
+      <br>
+      <input type="submit" value="Log In">
+    </form>
+    
+    
+    <!-- message form -->
+    <form name="message" class="hidden">
+      <label for="title">Title:
+        <input type="text" name="title" id="title">
+      </label>
+      <br>
+      <label for="content">Message:<br>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea>
+      </label>
+      <br>
+      <input type="submit" value="Post New Message">
+    </form>
+ 
+    <br><br><br>
+
+    <output id="posts"></output>
+
+    <br><br><br>
+
+    <!-- get posts button -->
+    <button id="getPosts" class="hidden">Get Posts</button>
+
+    <!-- errors pop-up -->
+    <div id="errors" class="errors"></div>
+ 
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
